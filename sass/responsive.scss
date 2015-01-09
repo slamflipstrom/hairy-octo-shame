@@ -1,0 +1,100 @@
+/*
+Theme Name: SC_Theme
+Theme URI: http://wordpress.org/themes/SC_theme
+Author: Sam Lindstrom
+Author URI: www.samlindstrom.com
+Description: SportsComix.com, hilarious comic strips for sports lovers.
+Version: 1.0
+
+*/
+
+$mobile: "(min-width: 320px) and (max-width: 479px)";
+$tablet: "(min-width: 480px) and (max-width: 767px)";
+$tablet-landscape: "(min-width: 768px) and (max-width: 979px)";
+$desktop: "(min-width: 980px) and (max-width: 1023px)";
+$wide: "(min-width: 1024px) and (max-width: 1199px)";
+$extra-wide:"(min-width: 1200px)";
+
+$nav-break:"(min-width: 480px)";
+$non-mobile:"(min-width: 480px)";
+
+$div-header-text: 20px 'Montserrat';
+$nav-link: none;
+$link-decoration: none;
+$div-content-padding: 90px;
+
+
+@media #{$mobile}{
+  p{
+    font-weight:400;
+    font-size: 15px;
+  }
+}
+
+// -- NAV --
+
+//nav{
+//  @media #{$nav-break}{
+//    .drop-icon{
+//      display: none;
+//    }
+//    .mobile-nav{
+//      display: inline-block !important;
+//      background: none;
+//      width: 50%;
+//      float: right;
+//      text-align: right;
+//    }
+//    ul{
+//      padding-top: 22px;
+//      margin-right: 25px;
+//      list-style-type: none;
+//    }
+//    li{
+//      margin-right: 20px;
+//      cursor: pointer;
+//      display: inline-block;
+//    }
+//    ul li a{
+//      text-decoration: $nav-link;
+//      font: 15px 'Montserrat';
+//      color: #000;
+//    }
+//    a:visited {
+//      color: #000;
+//      text-decoration: $nav-link;
+//    }
+//    a:hover {
+//     color: #F0EEBA;
+//    }
+//  }
+//  @media #{$mobile}{
+//    height:50px;
+//    .logo{
+//      height: 35px;
+//      width: 150px;
+//    }
+//    .logo a{
+//      height:35px;
+//    }
+//    .drop-icon{
+//      top: 17px;
+//    }
+//    .drop-icon a{
+//      height: 20px;
+//      width: 30px;
+//    }
+//  }
+//  @media #{$wide} {
+//    .logo{
+//      margin-left: 135px;
+//    }
+//    ul{
+//      padding-top: 22px;
+//      margin-right: 150px;
+//      list-style-type: none;
+//    }
+//  }
+//}
+//
+//// -- NAV --

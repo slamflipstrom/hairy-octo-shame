@@ -1,0 +1,15 @@
+/*
+Theme Name: SC_Theme
+Theme URI: http://wordpress.org/themes/SC_theme
+Author: Sam Lindstrom
+Author URI: www.samlindstrom.com
+Description: SportsComix.com, hilarious comic strips for sports lovers.
+Version: 1.0
+
+*/
+@media (min-width: 320px) and (max-width: 479px) {
+  p {
+    font-weight: 400;
+    font-size: 15px; } }
+
+/*# sourceMappingURL=responsive.css.map */
