@@ -30,7 +30,7 @@ Template Name: Home
    
   <!-- JS & jQuery libraries --> 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
+  <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
     
   <!-- Google Fonts -->
 
@@ -39,12 +39,14 @@ Template Name: Home
 
 <nav>
   <div class="logo"><a href="#landing-page">SportsComix</a></div>
+  <div class="mobile-menu"><a href="#">Menu</a></div>
   <ul class="mobile-nav">
-    <li><a href="#about">FOOTBALL</a></li>
-    <li><a href="#skills">BASKETBALL</a></li>
-    <li><a href="#work">BASEBALL</a></li>
-    <li><a href="#contact">HOCKEY</a></li>
-    <li><a href="#contact">SOCCER</a></li>   
+    <li><a href="#football">FOOTBALL</a></li>
+    <li><a href="#basketball">BASKETBALL</a></li>
+    <li><a href="#baseball">BASEBALL</a></li>
+    <li><a href="#hockey">HOCKEY</a></li>
+    <li><a href="#soccer">SOCCER</a></li>  
+    <li><a href="#golf">GOLF</a></li>    
   </ul>
 </nav>
 
