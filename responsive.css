@@ -9,20 +9,19 @@ Version: 1.0
 */
 @media (min-width: 320px) and (max-width: 479px) {
   p {
-    font-weight: 400;
+    font-weight: 401;
     font-size: 15px; } }
-@media (min-width: 480px) {
+@media (min-width: 520px) {
   nav .mobile-menu {
     display: none; }
   nav .mobile-nav {
-    display: inline-block !important;
-    background: none;
-    width: 50%;
-    float: right;
-    text-align: right; }
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 25px; }
   nav ul {
     padding-top: 22px;
-    margin-right: 25px;
     list-style-type: none; }
   nav li {
     margin-right: 10px;
@@ -36,13 +35,11 @@ Version: 1.0
     color: #468DC8;
     text-decoration: none; } }
 @media (min-width: 320px) and (max-width: 479px) {
-  nav {
-    height: 60px; }
-    nav .drop-icon {
-      top: 17px; }
-    nav .drop-icon a {
-      height: 20px;
-      width: 30px; } }
+  nav .drop-icon {
+    top: 17px; }
+  nav .drop-icon a {
+    height: 20px;
+    width: 30px; } }
 @media (min-width: 1024px) and (max-width: 1199px) {
   nav .logo {
     margin-left: 135px; }

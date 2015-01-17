@@ -15,7 +15,7 @@ $desktop: "(min-width: 980px) and (max-width: 1023px)";
 $wide: "(min-width: 1024px) and (max-width: 1199px)";
 $extra-wide:"(min-width: 1200px)";
 
-$nav-break:"(min-width: 480px)";
+$nav-break:"(min-width: 520px)";
 $non-mobile:"(min-width: 480px)";
 
 $div-header-text: 20px 'Montserrat';
@@ -28,7 +28,7 @@ $div-content-padding: 90px;
 
 @media #{$mobile}{
   p{
-    font-weight:400;
+    font-weight:401;
     font-size: 15px;
   }
 }
@@ -43,15 +43,14 @@ nav{
       display: none;
     }
     .mobile-nav{
-      display: inline-block !important;
-      background: none;
-      width: 50%;
-      float: right;
-      text-align: right;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      height: 25px;
     }
     ul{
       padding-top: 22px;
-      margin-right: 25px;
       list-style-type: none;
     }
     li{
@@ -70,7 +69,6 @@ nav{
     }
   }
   @media #{$mobile}{
-    height:60px;
     .drop-icon{
       top: 17px;
     }

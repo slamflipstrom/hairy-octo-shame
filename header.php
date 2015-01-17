@@ -11,10 +11,25 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<title><?php wp_title(); ?></title>
+
 	<?php wp_head(); ?>
+  
 </head>
+
+</head>
+
+<nav>
+  <div class="logo"><a href=".mobile-nav">SportsComix</a></div>
+  <div class="mobile-menu"><a href="#">Menu</a></div>
+  <ul class="mobile-nav">
+    <li><a href="#football">FOOTBALL</a></li>
+    <li><a href="#basketball">BASKETBALL</a></li>
+    <li><a href="#baseball">BASEBALL</a></li>
+    <li><a href="#hockey">HOCKEY</a></li>
+    <li><a href="#soccer">SOCCER</a></li>  
+    <li><a href="#golf">GOLF</a></li>    
+  </ul>
+</nav>
 
 <body> 
