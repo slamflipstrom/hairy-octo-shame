@@ -11,7 +11,7 @@ Version: 1.0
   p {
     font-weight: 401;
     font-size: 15px; } }
-@media (min-width: 520px) {
+@media (min-width: 560px) {
   nav .mobile-menu {
     display: none; }
   nav .mobile-nav {
@@ -19,12 +19,14 @@ Version: 1.0
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    height: 25px; }
+    height: 25px;
+    padding-top: 5px; }
   nav ul {
     padding-top: 22px;
     list-style-type: none; }
   nav li {
-    margin-right: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
     cursor: pointer;
     display: inline-block; }
   nav ul li a {

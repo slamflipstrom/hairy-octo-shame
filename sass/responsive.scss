@@ -15,7 +15,7 @@ $desktop: "(min-width: 980px) and (max-width: 1023px)";
 $wide: "(min-width: 1024px) and (max-width: 1199px)";
 $extra-wide:"(min-width: 1200px)";
 
-$nav-break:"(min-width: 520px)";
+$nav-break:"(min-width: 560px)";
 $non-mobile:"(min-width: 480px)";
 
 $div-header-text: 20px 'Montserrat';
@@ -48,13 +48,15 @@ nav{
       margin: 0 auto;
       text-align: center;
       height: 25px;
+      padding-top: 5px;
     }
     ul{
       padding-top: 22px;
       list-style-type: none;
     }
     li{
-      margin-right: 10px;
+      margin-right: 7px;
+      margin-left: 7px;
       cursor: pointer;
       display: inline-block;
     }

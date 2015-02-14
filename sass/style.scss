@@ -39,7 +39,7 @@ nav {
   width: 100%;
   margin: 0 auto;
   z-index: 1000;
-//  position: fixed;
+  position: relative;
   .logo a{
     background-image: url(./images/sc-logo-alternate-blue.png);
     background-position: center center;
@@ -57,6 +57,7 @@ nav {
     height: 40px;
     width: 220px;
     padding-top: 2px;
+    padding-bottom: 8px;
   }
   .mobile-menu{
     a{
@@ -70,8 +71,8 @@ nav {
       height: 20px;
       width: 20px;
       position: absolute;
-      right: 12px;
-      top: 13px;
+      top: 14px;
+      right: 17px;
     }
   }
   .mobile-nav{
@@ -81,7 +82,7 @@ nav {
     padding: 0;
     background-color: black;
     opacity: .9;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   ul{
     text-align: center;
@@ -92,7 +93,7 @@ nav {
   li{
     cursor: pointer;
     margin-bottom: 23px;
-//    padding-top: 10px;
+    text-transform: uppercase;
     a{
       text-decoration: $nav-link;
       font: 20px 'Montserrat';
@@ -110,13 +111,22 @@ nav {
     text-decoration: $nav-link;
   }
   a:hover { 
-   color: #468DC8;
+   color: #414248;
    
   }
 }
 
 #content{
-  margin-top: 50px;
+  margin-top: 60px;
+  h1{
+    font: 26px 'Montserrat';
+    font-weight:500;
+    color: #468DC8;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
 }
 
 // --Footer--

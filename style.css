@@ -29,7 +29,8 @@ nav {
   height: 50px;
   width: 100%;
   margin: 0 auto;
-  z-index: 1000; }
+  z-index: 1000;
+  position: relative; }
   nav .logo a {
     background-image: url(./images/sc-logo-alternate-blue.png);
     background-position: center center;
@@ -45,7 +46,8 @@ nav {
     margin: 0 auto;
     height: 40px;
     width: 220px;
-    padding-top: 2px; }
+    padding-top: 2px;
+    padding-bottom: 8px; }
   nav .mobile-menu a {
     background-image: url(./images/menu-icon.png);
     background-position: center center;
@@ -57,8 +59,8 @@ nav {
     height: 20px;
     width: 20px;
     position: absolute;
-    right: 12px;
-    top: 13px; }
+    top: 14px;
+    right: 17px; }
   nav .mobile-nav {
     display: none;
     width: 100%;
@@ -66,7 +68,7 @@ nav {
     padding: 0;
     background-color: black;
     opacity: .9;
-    padding-top: 20px; }
+    padding-top: 10px; }
   nav ul {
     text-align: center;
     width: 100%;
@@ -74,7 +76,8 @@ nav {
     margin: 0 auto; }
   nav li {
     cursor: pointer;
-    margin-bottom: 23px; }
+    margin-bottom: 23px;
+    text-transform: uppercase; }
     nav li a {
       text-decoration: none;
       font: 20px 'Montserrat';
@@ -88,9 +91,17 @@ nav {
     color: #468DC8;
     text-decoration: none; }
   nav a:hover {
-    color: #468DC8; }
+    color: #414248; }
 
 #content {
-  margin-top: 50px; }
+  margin-top: 60px; }
+  #content h1 {
+    font: 26px 'Montserrat';
+    font-weight: 500;
+    color: #468DC8;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

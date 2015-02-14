@@ -20,16 +20,31 @@
 </head>
 
 <nav>
-  <div class="logo"><a href=".mobile-nav">SportsComix</a></div>
+  
+  <div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">SportsComix</a></div>
   <div class="mobile-menu"><a href="#">Menu</a></div>
-  <ul class="mobile-nav">
+  
+  <?php 
+  
+    $defaults = array(
+      'container' => false,
+      'theme_location' => 'primary-menu',
+      'menu_class' => 'mobile-nav'
+    );
+  
+    wp_nav_menu( $defaults );
+  
+   ?>
+  
+
+  <!-- <ul class="mobile-nav">
     <li><a href="#football">FOOTBALL</a></li>
     <li><a href="#basketball">BASKETBALL</a></li>
     <li><a href="#baseball">BASEBALL</a></li>
     <li><a href="#hockey">HOCKEY</a></li>
-    <li><a href="#soccer">SOCCER</a></li>  
-    <li><a href="#golf">GOLF</a></li>    
-  </ul>
+    <li><a href="#soccer">SOCCER</a></li>
+    <li><a href="#golf">GOLF</a></li>
+  </ul> -->
 </nav>
 
 <body> 
