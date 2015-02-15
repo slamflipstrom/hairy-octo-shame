@@ -49,5 +49,56 @@ Version: 1.0
     padding-top: 22px;
     margin-right: 150px;
     list-style-type: none; } }
+@media (min-width: 980px) and (max-width: 1023px) {
+  nav {
+    height: 80px; }
+    nav .logo {
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px; }
+    nav .mobile-nav {
+      margin-top: 20px; }
+    nav ul {
+      height: 30px;
+      padding-top: 10px; }
+      nav ul li a {
+        text-decoration: none;
+        font: 18px 'Montserrat';
+        color: #468DC8; } }
+@media (min-width: 1024px) and (max-width: 1199px) {
+  nav {
+    height: 80px; }
+    nav .logo {
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px; }
+    nav .mobile-nav {
+      margin-top: 20px; }
+    nav ul {
+      height: 30px;
+      padding-top: 10px; }
+      nav ul li a {
+        text-decoration: none;
+        font: 18px 'Montserrat';
+        color: #468DC8; } }
+@media (min-width: 1200px) {
+  nav {
+    height: 80px; }
+    nav .logo {
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px; }
+    nav .mobile-nav {
+      margin-top: 20px; }
+    nav ul {
+      height: 30px;
+      padding-top: 10px; }
+      nav ul li a {
+        text-decoration: none;
+        font: 18px 'Montserrat';
+        color: #468DC8; } }
 
 /*# sourceMappingURL=responsive.css.map */

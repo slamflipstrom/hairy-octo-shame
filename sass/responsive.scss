@@ -89,6 +89,78 @@ nav{
       list-style-type: none;
     }
   }
+  @media #{$desktop}{
+    height:80px;
+    .logo{
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      
+    }
+    .mobile-nav{
+      margin-top: 20px;
+    }
+    ul{
+      height: 30px;
+      padding-top: 10px;
+      li{
+        a{
+          text-decoration: none;
+          font: 18px 'Montserrat';
+          color: #468DC8;
+        }
+      }
+    }
+  }
+  @media #{$wide}{
+    height:80px;
+    .logo{
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      
+    }
+    .mobile-nav{
+      margin-top: 20px;
+    }
+    ul{
+      height: 30px;
+      padding-top: 10px;
+      li{
+        a{
+          text-decoration: none;
+          font: 18px 'Montserrat';
+          color: #468DC8;
+        }
+      }
+    }
+  }
+  @media #{$extra-wide}{
+    height:80px;
+    .logo{
+      height: 50px;
+      width: 320px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      
+    }
+    .mobile-nav{
+      margin-top: 20px;
+    }
+    ul{
+      height: 30px;
+      padding-top: 10px;
+      li{
+        a{
+          text-decoration: none;
+          font: 18px 'Montserrat';
+          color: #468DC8;
+        }
+      }
+    }
+  }
 }
 
 //// -- NAV --
