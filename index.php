@@ -1,9 +1,12 @@
 <?php get_header(); ?>
   
+  
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content">
   
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <!-- WP loop -->
+  
+    <?php if (is_category( $football ) ) : while ( have_posts() ) : get_post(); ?>
       
       <h1><?php the_title(); ?></h1>
       <p><?php the_content(); ?></p>

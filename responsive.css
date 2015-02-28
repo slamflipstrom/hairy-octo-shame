@@ -42,63 +42,56 @@ Version: 1.0
   nav .drop-icon a {
     height: 20px;
     width: 30px; } }
-@media (min-width: 1024px) and (max-width: 1199px) {
-  nav .logo {
-    margin-left: 135px; }
-  nav ul {
-    padding-top: 22px;
-    margin-right: 150px;
-    list-style-type: none; } }
 @media (min-width: 980px) and (max-width: 1023px) {
   nav {
-    height: 80px; }
+    height: 70px; }
     nav .logo {
-      height: 50px;
-      width: 320px;
+      height: 45px;
+      width: 275px;
       padding-top: 10px;
       padding-bottom: 0px; }
     nav .mobile-nav {
-      margin-top: 20px; }
+      margin-top: 10px; }
     nav ul {
       height: 30px;
       padding-top: 10px; }
       nav ul li a {
         text-decoration: none;
-        font: 18px 'Montserrat';
+        font: 17px 'Montserrat';
         color: #468DC8; } }
 @media (min-width: 1024px) and (max-width: 1199px) {
   nav {
-    height: 80px; }
+    height: 70px; }
     nav .logo {
       height: 50px;
-      width: 320px;
+      width: 300px;
       padding-top: 10px;
       padding-bottom: 0px; }
     nav .mobile-nav {
-      margin-top: 20px; }
+      margin-top: 10px; }
     nav ul {
       height: 30px;
       padding-top: 10px; }
       nav ul li a {
         text-decoration: none;
-        font: 18px 'Montserrat';
+        font: 17px 'Montserrat';
         color: #468DC8; } }
 @media (min-width: 1200px) {
   nav {
-    height: 80px; }
+    height: 70px; }
     nav .logo {
       height: 50px;
-      width: 320px;
+      width: 300px;
       padding-top: 10px;
       padding-bottom: 0px; }
     nav .mobile-nav {
-      margin-top: 20px; }
+      margin-top: 10px; }
     nav ul {
       height: 30px;
       padding-top: 10px; }
       nav ul li a {
         text-decoration: none;
-        font: 18px 'Montserrat';
+        font: 17px 'Montserrat';
         color: #468DC8; } }
 
 /*# sourceMappingURL=responsive.css.map */
